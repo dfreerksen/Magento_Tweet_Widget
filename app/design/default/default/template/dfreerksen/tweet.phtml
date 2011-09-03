@@ -1,0 +1,7 @@
+<ul class="<?php echo $this->getCssWrapperClass(); ?>">
+	<?php foreach ($tweets as $index => $data) : ?>
+		<li class="<?php echo $this->getCssClass(); ?>">
+			<?php echo $data['text']; ?>
+		</li>
+	<?php endforeach; ?>
+</ul>

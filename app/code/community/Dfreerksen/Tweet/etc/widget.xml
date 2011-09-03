@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<widgets>
+	<dfreerksen_tweet_tweets type="dfreerksen_tweet/tweets">
+		<name>Tweets</name>
+		<description type="desc">Add a Twitter feed</description>
+		<parameters>
+
+			<lifetime>
+				<label>Cache lifetime</label>
+				<description>How long to cache the returned tweets (seconds)</description>
+				<visible>1</visible>
+				<required>1</required>
+				<type>text</type>
+				<value>0</value>
+			</lifetime>
+
+			<count>
+				<label>Tweets to display</label>
+				<visible>1</visible>
+				<required>1</required>
+				<type>text</type>
+				<value>5</value>
+			</count>
+
+			<username>
+				<label>Twitter user name</label>
+				<visible>1</visible>
+				<required>1</required>
+				<type>text</type>
+				<value>dfreerksen</value>
+			</username>
+
+			<at_class>
+				<label>CSS class for @</label>
+				<visible>1</visible>
+				<required>0</required>
+				<type>text</type>
+				<value>at</value>
+			</at_class>
+
+			<pound_class>
+				<label>CSS class for #</label>
+				<visible>1</visible>
+				<required>0</required>
+				<type>text</type>
+				<value>pound</value>
+			</pound_class>
+
+			<css_wrapper_class>
+				<label>Wrapper CSS class</label>
+				<visible>1</visible>
+				<required>0</required>
+				<type>text</type>
+				<value>tweets</value>
+			</css_wrapper_class>
+
+			<css_class>
+				<label>Tweet CSS class</label>
+				<visible>1</visible>
+				<required>0</required>
+				<type>text</type>
+				<value>tweet</value>
+			</css_class>
+
+			<template translate="label" module="dfreerksen_tweet">
+				<label>Template</label>
+				<visible>0</visible>
+				<required>1</required>
+				<type>text</type>
+				<value>dfreerksen/tweet.phtml</value>
+			</template>
+		</parameters>
+	</dfreerksen_tweet_tweets>
+</widgets>

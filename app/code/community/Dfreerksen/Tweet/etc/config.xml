@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+		<Dfreerksen_Tweet>
+			<version>0.0.1</version>
+		</Dfreerksen_Tweet>
+	</modules>
+
+	<global>
+		<helpers>
+			<dfreerksen_tweet>
+				<class>Dfreerksen_Tweet_Helper</class>
+			</dfreerksen_tweet>
+		</helpers>
+
+		<blocks>
+			<dfreerksen_tweet>
+				<class>Dfreerksen_Tweet_Block</class>
+			</dfreerksen_tweet>
+		</blocks>
+	</global>
+
+	<adminhtml>
+		<translate>
+			<modules>
+				<Dfreerksen_Tweet>
+					<files>
+						<default>Dfreerksen_Tweet.csv</default>
+					</files>
+				</Dfreerksen_Tweet>
+			</modules>
+		</translate>
+	</adminhtml>
+</config>
