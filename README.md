@@ -4,7 +4,7 @@
 * Select "Tweets" from the dropdown menu
 * Change your settings as required
     * Cache lifetime
-        * How long to keep the tweets cached in seconds. To not cache the tweets, set this to 0. Twitter has a 150 max user tatus requests per hour
+        * How long to keep the tweets cached in seconds. To not cache the tweets, set this to 0. Twitter has a 150 max user status requests per hour
     * Tweets to display
         * Number of tweets to return
     * Twitter user name
